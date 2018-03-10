@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/sh -x
 CONFFILE=/etc/privoxy/config
 PIDFILE=/var/run/privoxy.pid
 
