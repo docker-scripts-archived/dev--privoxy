@@ -6,11 +6,11 @@ Privoxy is a "privacy enhancing proxy", filtering Web pages and removing adverti
 - First install `ds` :
      + https://github.com/docker-scripts/ds#installation
 
-  - Then get the privoxy scripts from github: `ds pull privoxy`
+ - Then get the privoxy scripts from github: `ds pull privoxy`
 
-  - Create a directory for the privoxy container: `ds init privoxy @priv1`
+ - Create a directory for the privoxy container: `ds init privoxy @priv1`
 
-  - Build image, create the container and configure it:
+ - Build image, create the container and configure it:
     ```
     ds build
     ds create
